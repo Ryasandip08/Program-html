@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOKO SAYURAN SEHAT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 80%;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+        .header, .footer {
+            background-color: #d8d8f6;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+        }
+        .left-panel, .right-panel {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .left-panel {
+            background-color: #fdf2cc;
+        }
+        .right-panel {
+            background-color: #fdf2cc;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        ol {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            font-size: 14px;
+            background-color: #e0e0e0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TOKO SAYURAN SEHAT</h1>
+            <img src="tokosayuran.png" alt="tokosayuran.png" width="100">
+        </div>
+        <div class="content">
+            <div class="left-panel">
+                <h2>Nama Sayuran</h2>
+                <ol type="I">
+                    <li><a href="#kubis">KUBIS</a></li>
+                    <li><a href="#wortel">WORTEL</a></li>
+                    <li><a href="#tomat">TOMAT</a></li>
+                </ol>
+            </div>
+            <div class="right-panel">
+                <h2>Kubik Telur</h2>
+                <video width="100%" controls>
+                    <source src="kubiktelur.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video tag.
+                </video>
+            </div>
+        </div>
+        <div class="footer">
+            Created by @202243502742RyasAndiPramudipta
+        </div>
+    </div>
+</body>
+</html>
